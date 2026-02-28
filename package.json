@@ -1,0 +1,33 @@
+{
+  "name": "zmyvak",
+  "version": "0.0.0",
+  "description": "Simple HTML sanitizer.",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirxpilot/zmyvak.git"
+  },
+  "type": "module",
+  "exports": "./lib/zmyvak.js",
+  "license": "ICS",
+  "keywords": [
+    "zmyvak",
+    "html",
+    "sanitize",
+    "xss"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "2.4.4"
+  },
+  "scripts": {
+    "test": "make check"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
