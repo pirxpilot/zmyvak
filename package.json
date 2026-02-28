@@ -1,6 +1,6 @@
 {
   "name": "zmyvak",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple HTML sanitizer.",
   "author": {
     "name": "Damian Krzeminski",
