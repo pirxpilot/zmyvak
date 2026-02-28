@@ -7,7 +7,7 @@ format:
 	./node_modules/.bin/biome check --fix
 
 test:
-	node --test $(TEST_OPTS)
+	node --require jsdom-global/register --test $(TEST_OPTS)
 
 test-cov: TEST_OPTS := --experimental-test-coverage
 test-cov: test
