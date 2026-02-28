@@ -13,7 +13,7 @@
   },
   "type": "module",
   "exports": "./lib/zmyvak.js",
-  "license": "ICS",
+  "license": "ISC",
   "keywords": [
     "zmyvak",
     "html",
